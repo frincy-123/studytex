@@ -1,0 +1,54 @@
+\documentclass[12pt]{book}
+\usepackage{amsmath}
+\usepackage{tikz}
+\begin{document}
+	\title{mathametical typesetting}
+\author{name}
+\maketitle
+\chapter{equations}
+
+\section{inline mode}
+ First equation $ x+y =0 $  $ x^3 $	
+\section{displayed mode}
+Second equation is $$ E=mc^2 $$
+
+
+\begin{displaymath}
+ f=mgh 
+\end{displaymath}
+
+	
+\begin{equation}
+e=m
+\end{equation}
+
+	
+\section{alignment equation}
+\begin{align}
+x+3y+4Z &=2\\
+3y-4Z&=5 \\
+3 &=4
+\end{align}
+
+
+\section{Fractions}
+$\frac{x+3}{4}$
+\section{subscript and superscript}
+$ a_{11} $
+	
+	$$ x= \frac{-b\pm\sqrt{b^-4ac}}{2a} $$ 
+	\section{matrices}
+	1.plain
+	$$
+	\begin{Bmatrix}
+	1&2&3\\
+	a&b&c
+		\end{Bmatrix}
+		$$
+	\end{document}
+
+
+\section{Drawing lines}
+\begin{tikzpicture}
+ \draw {0,0}--{5,0};
+\end{tikzpicture}
